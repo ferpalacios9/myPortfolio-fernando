@@ -4,7 +4,7 @@ import { BsArrowUpRight } from 'react-icons/bs'
 // motion
 import { motion } from 'framer-motion';
 // variants
-import { fadeIn } from '../variants';
+import { fadeIn } from '../variants'; 
 
 // services data
 
@@ -22,13 +22,13 @@ const services = [
     link: 'Learn more',
   },
   {
-    name: 'Digital Marketing',
+    name: 'Digital Design',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
   },
   {
-    name: 'Product Branding',
+    name: 'Design Design',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',

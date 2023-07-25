@@ -38,7 +38,7 @@ const About = () => {
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {InView ? <CountUp start={0} end={13} duration={5} /> : null} {/* CHECAR */}
+                {InView ? <CountUp start={0} end={5} duration={5} /> : null} {/* CHECAR */}
               </div>
             </div>
             <div className='font-primary text-sm tracking-[2px]'>
@@ -47,7 +47,7 @@ const About = () => {
             </div>
             <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                {InView ? <CountUp start={0} end={13} duration={5} /> : null} {/* CHECAR!!! */}
+                {InView ? <CountUp start={0} end={5} duration={5} /> : null} {/* CHECAR!!! */}
               </div>
             </div>
             <div className='font-primary text-sm tracking-[2px]'>
