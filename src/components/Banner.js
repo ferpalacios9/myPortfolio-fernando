@@ -9,6 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
+//link
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -61,13 +63,18 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
+              <Link
+                to='contact'
+                smooth={true}
+                className='block'>
+                <button className='btn btn-sm'>Contact me</button>
+              </Link>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div> {/* CHECAR */}
             {/* socials */}
-            <motion.div 
+            <motion.div
               variants={fadeIn('left', 0.9)}
               initial="hidden"
               whileInView={'show'}
@@ -85,12 +92,12 @@ const Banner = () => {
             </motion.div>
           </div>
           {/* image */}
-          <motion.div 
+          <motion.div
             variants={fadeIn('down', 0.5)}
             initial="hidden"
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[350px] mix-blend-lighten'>
-            <img style={{borderRadius: '50%', paddingBottom: 60}} src={Image} alt='' />
+            <img style={{ borderRadius: '50%', paddingBottom: 60 }} src={Image} alt='' />
           </motion.div>
         </div>
       </div>
