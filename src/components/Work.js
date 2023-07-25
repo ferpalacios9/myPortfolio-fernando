@@ -11,7 +11,7 @@ import Img3 from '../assets/portfolio-img3.png';
 const Work = () => {
   return (
   <section className='section' id='work'>
-    <div className='container mx-auto'>
+    <div className='container mx-auto max-w-screen-lg'>
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <motion.div 
           variants={fadeIn('right', 0.3)}
@@ -25,7 +25,7 @@ const Work = () => {
               My Lastest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-16'>
+            <p className='max-w-sm mb-4'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum consequatur cumque possimus laborum excepturi ex labore quis.
             </p>
             <button className='btn btn-sm'>View all projects</button>
@@ -55,9 +55,9 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 flex flex-col gap-y-10'>
+          className='flex-1 flex flex-col justify-between'>
           {/* image */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mb-8'>
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
