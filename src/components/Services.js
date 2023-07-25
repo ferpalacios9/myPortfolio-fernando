@@ -12,25 +12,25 @@ const services = [
   {
     name: 'UI/UX Design',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit, non minima tempora enim nesciunt assumenda.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
   },
   {
     name: 'Development',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit, non minima tempora enim nesciunt assumenda.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
   },
   {
     name: 'Digital Marketing',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit, non minima tempora enim nesciunt assumenda.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
   },
   {
     name: 'Product Branding',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit, non minima tempora enim nesciunt assumenda.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
   },
 ]
