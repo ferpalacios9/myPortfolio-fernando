@@ -54,7 +54,7 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et architecto distinctio, fugiat totam iste eligendi suscipit.
+              Engineer and Front End Developer with 2 years of experience in the programming field. High skills in HTML, CSS, and JavaScript.
             </motion.p>
 
             <motion.div
@@ -69,9 +69,12 @@ const Banner = () => {
                 className='block'>
                 <button className='btn btn-sm'>Contact me</button>
               </Link>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
-              </a>
+              <Link
+                to='work'
+                smooth={true}
+                className='block'>
+                <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+              </Link>
             </motion.div> {/* CHECAR */}
             {/* socials */}
             <motion.div
@@ -80,10 +83,10 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
+              <a href='https://github.com/ferpalacios9'>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a href='https://www.linkedin.com/in/fernando-palacios-bb91b4247/'>
                 <FaLinkedin />
               </a>
               <a href='#'>

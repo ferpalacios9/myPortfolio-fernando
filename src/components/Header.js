@@ -1,4 +1,6 @@
 import React from 'react';
+//link
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -10,7 +12,12 @@ const Header = () => {
             Developed with React & Tailwind CSS
           </a>
           {/* button */}
-          <button className='btn btn-sm'>Work with me</button>
+          <Link
+                to='contact'
+                smooth={true}
+                className='block'>
+                <button className='btn btn-sm'>Work with me</button>
+              </Link>
         </div>
       </div>
     </header>
