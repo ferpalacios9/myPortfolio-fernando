@@ -1,8 +1,8 @@
 import React from 'react';
 // images
-import Image from '../assets/me.jpg';
+import Image from '../assets/profile2.jpg';
 // icons 
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaDribbble, FaLinkedin, FaFile } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -32,14 +32,12 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-              <span className='text-white mr-4'>I am a</span>
+              <span className='text-white mr-4'>I am</span>
               <TypeAnimation
                 sequence={[
-                  'Developer',
+                  'a Developer',
                   2000,
-                  'Engineer',
-                  2000,
-                  'Designer',
+                  'an Engineer',
                   2000,
                 ]}
                 speed={50}
@@ -70,19 +68,19 @@ const Banner = () => {
             </motion.div> {/* CHECAR */}
             {/* socials */}
             <motion.div 
-              variants={fadeIn('up', 0.7)}
+              variants={fadeIn('left', 0.9)}
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
               <a href='#'>
-                <FaYoutube />
-              </a>
-              <a href='#'>
                 <FaGithub />
               </a>
               <a href='#'>
-                <FaDribbble />
+                <FaLinkedin />
+              </a>
+              <a href='#'>
+                <FaFile />
               </a>
             </motion.div>
           </div>
@@ -91,8 +89,8 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)}
             initial="hidden"
             whileInView={'show'}
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[350px]'>
-            <img src={Image} alt='' />
+            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[350px] mix-blend-lighten'>
+            <img style={{borderRadius: '50%', paddingBottom: 60}} src={Image} alt='' />
           </motion.div>
         </div>
       </div>

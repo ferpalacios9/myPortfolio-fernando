@@ -26,13 +26,7 @@ const services = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
     link: 'Learn more',
-  },
-  {
-    name: 'Design Design',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor, suscipit ipsam unde cupiditate error atque sit.',
-    link: 'Learn more',
-  },
+  }
 ]
 
 const Services = () => {
