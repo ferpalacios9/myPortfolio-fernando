@@ -16,8 +16,10 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           form.current.reset();
+          alert("Your message was sent");
       }, (error) => {
           console.log(error.text);
+          alert("Something went wrong");
       });
   };
 
@@ -72,7 +74,7 @@ const Contact = () => {
           required
           name='message'
           ></textarea>
-          <button type="submit" value="Send" className='btn btn-lg'>
+          <button type="submit" value="Send" id='submit' className='btn btn-lg'>
             Send message
           </button>
         </motion.form>
