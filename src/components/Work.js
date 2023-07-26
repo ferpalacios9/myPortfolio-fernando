@@ -85,7 +85,7 @@ const Work = () => {
               <img
                 className='group-hover:scale-125 transation-all duration-500'
                 src={Img3}
-                alt=''
+                alt=' '
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
