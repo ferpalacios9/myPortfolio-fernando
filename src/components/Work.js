@@ -89,7 +89,7 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <a href='https://ferpalacios9.github.io/landingpage-Recetas/' className='text-gradient'>Registration Form</a> 
+                <a href='https://validated-form-two.vercel.app/?vercelToolbarCode=ZhH-j5xNeVjwdET' className='text-gradient'>Registration Form</a> 
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
