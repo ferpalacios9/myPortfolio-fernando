@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 // img
-import Img1 from '../assets/movies_catalogue.png';
-import Img2 from '../assets/landingPage_recetas.png';
-import Img3 from '../assets/form_Project.png';
+import Img1 from '../assets/movies.png';
+import Img2 from '../assets/landing_recipies.png';
+import Img3 from '../assets/form.png';
 
 const Work = () => {
   return (
