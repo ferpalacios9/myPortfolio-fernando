@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
 // motion
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
+// form 
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_zfrfr0h', 'template_8qa9h7g', form.current, 'i7h39JJTTSsZn7mrE')
+      .then((result) => {
+          console.log(result.text);
+          form.current.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
   <section className='py-16 lg:section' id='contact'>
     <div className='container mx-auto'>
@@ -32,8 +48,8 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          action="https://formsubmit.co/l18331019@hermosillo.tecnm.mx" 
-          method="POST"
+          ref={form} 
+          onSubmit={sendEmail}
           className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
           
           <input 
@@ -41,19 +57,22 @@ const Contact = () => {
           type='text'
           placeholder='Your name'
           required
+          name='user_name'
           />
           <input 
           className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
           type='email'
           placeholder='Your email'
           required
+          name='user_email'
           />
           <textarea 
           className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
           placeholder='Your message'
           required
+          name='message'
           ></textarea>
-          <button type='submit' className='btn btn-lg'>
+          <button type="submit" value="Send" className='btn btn-lg'>
             Send message
           </button>
         </motion.form>
