@@ -32,7 +32,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          action="https://formsubmit.co/fer.palaciosdev09@gmail.com" 
+          action="https://formsubmit.co/l18331019@hermosillo.tecnm.mx" 
           method="POST"
           className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
           
