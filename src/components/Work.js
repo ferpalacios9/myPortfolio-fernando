@@ -44,11 +44,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <span className='text-gradient'>UI/UX Design</span>
+                <a href='https://project1-movies.netlify.app/' className='text-gradient'>Digital Catalog</a>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <a href='https://project1-movies.netlify.app/' className='text-3xl text-white'>Movies App</a>
               </div>
             </div>
           </motion.div>
@@ -70,11 +70,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <span className='text-gradient'>UI/UX Design</span>
+                <a href='https://ferpalacios9.github.io/landingpage-Recetas/' className='text-gradient'>Landing Page</a>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <a href='https://ferpalacios9.github.io/landingpage-Recetas/' className='text-3xl text-white'>Food Recipes</a>
               </div>
             </div>
             {/* image */}
@@ -89,11 +89,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <span className='text-gradient'>UI/UX Design</span>
+                <a href='https://validated-form-two.vercel.app/?vercelToolbarCode=ZhH-j5xNeVjwdET' className='text-gradient'>Registration Form</a> 
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <a href='https://validated-form-two.vercel.app/?vercelToolbarCode=ZhH-j5xNeVjwdET' className='text-3xl text-white'>Pet Shop App</a>
               </div>
             </div>
           </motion.div>
