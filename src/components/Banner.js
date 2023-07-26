@@ -11,6 +11,8 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 //link
 import { Link } from 'react-scroll';
+//pdf
+import pdfFile from '../assets/cv_FernandoPalacios.pdf' 
 
 const Banner = () => {
   return (
@@ -89,7 +91,7 @@ const Banner = () => {
               <a href='https://www.linkedin.com/in/fernando-palacios-bb91b4247/'>
                 <FaLinkedin />
               </a>
-              <a href='#'>
+              <a href={pdfFile} download="cv_FernandoPalacios.pdf">
                 <FaFile />
               </a>
             </motion.div>
