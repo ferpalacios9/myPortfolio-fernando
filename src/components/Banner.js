@@ -12,7 +12,7 @@ import { fadeIn } from '../variants';
 //link
 import { Link } from 'react-scroll';
 //pdf
-import pdfFile from '../assets/cv_FernandoPalacios.pdf' 
+import pdfFile from '../assets/Resume_Fernando_Palacios.pdf' 
 
 const Banner = () => {
   return (
