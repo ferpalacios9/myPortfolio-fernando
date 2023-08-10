@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 // img
 import Img1 from '../assets/movies.png';
-import Img2 from '../assets/landing_recipies.png';
+import Img2 from '../assets/taskHub.png';
 import Img3 from '../assets/form.png';
 
 const Work = () => {
@@ -70,11 +70,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <a href='https://ferpalacios9.github.io/landingpage-Recetas/' className='text-gradient'>Landing Page</a>
+                <a href='https://task-hub-khaki.vercel.app/' className='text-gradient'>Manage your project</a>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <a href='https://ferpalacios9.github.io/landingpage-Recetas/' className='text-3xl text-white'>Food Recipes</a>
+                <a href='https://task-hub-khaki.vercel.app/' className='text-3xl text-white'>TaskHub</a>
               </div>
             </div>
             {/* image */}
