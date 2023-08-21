@@ -6,7 +6,7 @@ import { fadeIn } from '../variants';
 // img
 import Img1 from '../assets/movies.png';
 import Img2 from '../assets/taskHub.png';
-import Img3 from '../assets/form.png';
+import Img3 from '../assets/profile_employee.png';
 
 const Work = () => {
   return (
@@ -28,7 +28,7 @@ const Work = () => {
               <p className='max-w-sm mb-4'>
                 These are the last projects I have developed where you can see the experience I have. Also, this website is one of my latest developments.
               </p>
-              <a href='https://github.com/ferpalacios9' className='btn btn-sm py-4'>
+              <a href='https://github.com/ferpalacios9?tab=repositories' className='btn btn-sm py-4'>
                 View all projects
               </a>
             </div>
@@ -89,11 +89,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <a href='https://validated-form-two.vercel.app/?vercelToolbarCode=ZhH-j5xNeVjwdET' className='text-gradient'>Registration Form</a> 
+                <a href='https://profile-employee.vercel.app/' className='text-gradient'>Profile Employee</a> 
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <a href='https://validated-form-two.vercel.app/?vercelToolbarCode=ZhH-j5xNeVjwdET' className='text-3xl text-white'>Pet Shop App</a>
+                <a href='https://profile-employee.vercel.app/' className='text-3xl text-white'>Employees Info</a>
               </div>
             </div>
           </motion.div>
