@@ -6,7 +6,7 @@ import { fadeIn } from '../variants';
 // img
 import Img1 from '../assets/movies.png';
 import Img2 from '../assets/taskHub.png';
-import Img3 from '../assets/profile_employee.png';
+import Img3 from '../assets/bank-app.png';
 
 const Work = () => {
   return (
@@ -89,11 +89,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transation-all duration-500 z-50' >
-                <a href='https://profile-employee.vercel.app/' className='text-gradient'>Profile Employee</a> 
+                <a href='https://bank-app-pied.vercel.app/' className='text-gradient'>Purchase Record</a> 
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transation-all duration-700 z-50'>
-                <a href='https://profile-employee.vercel.app/' className='text-3xl text-white'>Employees Info</a>
+                <a href='https://bank-app-pied.vercel.app/' className='text-3xl text-white'>Bank App</a>
               </div>
             </div>
           </motion.div>
